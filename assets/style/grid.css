@@ -1,0 +1,173 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.col-1 {
+  width: calc(100% / 12);
+}
+.col-2 {
+  width: calc(100% / 6);
+}
+.col-3 {
+  width: calc(100% / 4);
+}
+.col-4 {
+  width: calc(100% / 3);
+}
+.col-5 {
+  width: calc(100% / 12 * 5);
+}
+.col-6 {
+  width: calc(100% / 2);
+}
+.col-7 {
+  width: calc(100% / 12 * 7);
+}
+.col-8 {
+  width: calc(100% / 12 * 8);
+}
+.col-9 {
+  width: calc(100% / 4 * 3);
+}
+.col-10 {
+  width: calc(100% / 6 * 5);
+}
+.col-11 {
+  width: calc(100% / 12 * 11);
+}
+.col-12 {
+  width: 100%;
+}
+
+/* Desktop responsive */
+/* @media only screen and (min-width: 1200px) and (max-width: 1440px) {
+.col-lg-1 {
+  width: calc(100% / 12);
+}
+.col-lg-2 {
+  width: calc(100% / 6);
+}
+.col-lg-3 {
+  width: calc(100% / 4);
+}
+.col-lg-4 {
+  width: calc(100% / 3);
+}
+.col-lg-5 {
+  width: calc(100% / 12 * 5);
+}
+.col-lg-6 {
+  width: calc(100% / 2);
+}
+.col-lg-7 {
+  width: calc(100% / 12 * 7);
+}
+.col-lg-8 {
+  width: calc(100% / 12 * 8);
+}
+.col-lg-9 {
+  width: calc(100% / 4 * 3);
+}
+.col-lg-10 {
+  width: calc(100% / 6 * 5);
+}
+.col-lg-11 {
+  width: calc(100% / 12 * 11);
+}
+.col-lg-12 {
+  width: 100%;
+}
+} */
+
+/* Tablet responsive */
+
+/* @media only screen and (min-width: 762px) and (max-width: 992px) {
+.col-md-1 {
+  width: calc(100% / 12);
+}
+.col-md-2 {
+  width: calc(100% / 6);
+}
+.col-md-3 {
+  width: calc(100% / 4);
+}
+.col-md-4 {
+  width: calc(100% / 3);
+}
+.col-md-5 {
+  width: calc(100% / 12 * 5);
+}
+.col-md-6 {
+  width: calc(100% / 2);
+}
+.col-md-7 {
+  width: calc(100% / 12 * 7);
+}
+.col-md-8 {
+  width: calc(100% / 12 * 8);
+}
+.col-md-9 {
+  width: calc(100% / 4 * 3);
+}
+.col-md-10 {
+  width: calc(100% / 6 * 5);
+}
+.col-md-11 {
+  width: calc(100% / 12 * 11);
+}
+.col-md-12 {
+  width: 100%;
+}
+}
+
+/* Phone responsive */
+/* @media only screen and (max-width: 762px){
+  .col-4{
+    width: calc(100% / 12 * 6);
+  }
+} */
+
+/* @media only screen and (min-width: 762px) and (max-width: 1440px) {
+.col-lg-1 {
+  width: calc(100% / 12);
+}
+.col-lg-2 {
+  width: calc(100% / 6);
+}
+.col-lg-3 {
+  width: calc(100% / 4);
+}
+.col-lg-4 {
+  width: calc(100% / 3);
+}
+.col-lg-5 {
+  width: calc(100% / 12 * 5);
+}
+.col-lg-6 {
+  width: calc(100% / 2);
+}
+.col-lg-7 {
+  width: calc(100% / 12 * 7);
+}
+.col-lg-8 {
+  width: calc(100% / 12 * 8);
+}
+.col-lg-9 {
+  width: calc(100% / 4 * 3);
+}
+.col-lg-10 {
+  width: calc(100% / 6 * 5);
+}
+.col-lg-11 {
+  width: calc(100% / 12 * 11);
+}
+.col-lg-12 {
+  width: 100%;
+}
+}  */
